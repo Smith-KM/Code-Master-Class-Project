@@ -1,0 +1,202 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #060606;
+    color: white;
+    padding: 14px;
+    text-align: right;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background-color: #222;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .hero-image {
+    max-width: 70%;
+    height: auto;
+  }
+  
+  .services {
+    text-align: auto;
+    padding: 20px;
+  }
+  
+  .services ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .services ul li {
+    margin: 10px 0;
+  }
+  
+  .call-to-action {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .call-to-action button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .clock-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .color-change button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+
+  /* Style for the logo */
+  .logo {
+    width: 5%; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: auto;
+    padding: 10px;
+    display: flex;
+  }
+ /* About Page Content */
+  .about {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .picture {
+    max-width: 700%;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  .about p {
+    width: 80%;
+    background-color: lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 600px;
+    text-align: left;
+    font-family: poppins;
+    font-size: 15px;
+  }
+  
+  /* Team Section */
+  .team {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .team h3 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .team-member {
+    background-color: lightgrey;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .team-member p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #444;
+  }
+  
+  .team-member .role {
+    color: #888;
+    font-size: 0.9em;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  .logo__.about {
+    width: 5%; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: auto;
+    padding: 10px;
+    display: flex;
+  }
+
+
+  
